@@ -15,18 +15,24 @@
       </div>
     </div>
     <mat-divider></mat-divider>
-    <p>
+    <p class="mt-4"> 
       <mat-toolbar>
-        <!-- <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
-        <mat-icon>menu</mat-icon>
-      </button> -->
-        <span>My App</span>
-        <img src="" alt="test" />
-        <span class="example-spacer"></span>
-        <button mat-button>All jobs</button>
+        <img src="https://raw.githubusercontent.com/JOBJACK/JJ-Angular-Material-navigation/main/src/assets/jobjack.png" alt="test" style="width: 150px" class="me-5"/>
+        <span class="link">All jobs</span>
+        <span class="link">My jobs</span>
+        <span class="link">Notification</span>
+        <span class="link">Resources</span>
+        <button
+        class="ms-auto"
+        mat-mini-fab
+        aria-label="Example icon button with a home icon"
+      >
+      <!-- <mat-icon svgIcon="home">home</mat-icon> -->
+      </button>
+        <!-- <button mat-button>All jobs</button>
         <button mat-button>My jobs</button>
         <button mat-button>Notifications</button>
-        <button mat-button>Resources</button>
+        <button mat-button>Resources</button> -->
       </mat-toolbar>
     </p>
   </section>
